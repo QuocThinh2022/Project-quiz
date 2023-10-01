@@ -1,0 +1,40 @@
+
+
+.header {
+   background: orange;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px;
+   position: sticky;
+   top: 0;
+   z-index: 999;
+   
+   &__logo a {
+      color: #fff;
+      font-size: 28px;
+      font-weight: 700;
+   }
+
+   &__menu, &__account {
+      a {
+         color: #fff;
+         margin-right: 20px;
+
+         &.active {
+            color: #000;
+         }
+      }
+   }
+}
+   
+
+.main {
+   padding: 20px;
+}
+
+.footer {
+   background: orange;
+   text-align: center;
+   padding: 10px;
+}
